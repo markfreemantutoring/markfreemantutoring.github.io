@@ -1,5 +1,6 @@
 body {
   background: #f5f5f5;
+  font-family: 'texgyreschola', serif;
 }
 
 section {
@@ -76,6 +77,10 @@ p {
   top: -80px;
   margin-left: -80px;
   left: 50%;
+}
+
+.contact-icon-image {
+	height: 16px;
 }
 
 .text-center {
