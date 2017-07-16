@@ -114,8 +114,17 @@ p {
   left: 50%;
 }
 
-.panel-heading.panel-heading-blue {
-	background-color: rgba(78, 188, 241, 0.38);
+.panel-heading.panel-heading-invisible {
+	background-color: transparent;
+	border-color: transparent;
+	border-bottom: 0px;
+	padding: 0px;
+}
+
+.panel.panel-default.panel-invisible {
+	border: 0px;
+	--webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .contact-icon-image {
